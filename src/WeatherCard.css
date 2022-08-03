@@ -1,0 +1,27 @@
+.WeatherCard {
+  border-radius: 20px;
+  background: hsla(191, 60%, 89%, 1);
+
+  background: linear-gradient(
+    90deg,
+    hsla(191, 60%, 89%, 1) 0%,
+    hsla(56, 59%, 86%, 1) 50%,
+    hsla(25, 85%, 69%, 1) 100%
+  );
+
+  background: -moz-linear-gradient(
+    90deg,
+    hsla(191, 60%, 89%, 1) 0%,
+    hsla(56, 59%, 86%, 1) 50%,
+    hsla(25, 85%, 69%, 1) 100%
+  );
+
+  background: -webkit-linear-gradient(
+    90deg,
+    hsla(191, 60%, 89%, 1) 0%,
+    hsla(56, 59%, 86%, 1) 50%,
+    hsla(25, 85%, 69%, 1) 100%
+  );
+
+  filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#D3EEF4", endColorstr="#F1EEC8", GradientType=1 );
+}
